@@ -1,0 +1,28 @@
+SOS — GUIA DE PRIMEIROS SOCORROS | VERSÃO 2.0
+
+O QUE HÁ DE NOVO
+- Identidade visual revisada e responsiva.
+- Busca e filtros por categoria.
+- 18 situações com instruções, alertas e o que evitar.
+- Ilustrações vetoriais locais (SVG), sem depender de internet.
+- Botões de ligação para SAMU 192, Bombeiros 193 e Disque-Intoxicação.
+- Cache offline atualizado para versão 2.
+
+COMO ATUALIZAR O SITE JÁ PUBLICADO
+1. Extraia este ZIP.
+2. Abra o repositório existente no GitHub.
+3. Escolha Add file > Upload files.
+4. Envie/substitua todos os arquivos e a pasta img/ mantendo a estrutura.
+5. Faça Commit changes.
+6. Aguarde o GitHub Pages publicar a atualização.
+7. No Android, abra o app com internet e atualize/recarregue uma vez. O service worker v2 instala o novo cache e remove o cache antigo. Feche e reabra o app.
+
+IMPORTANTE SOBRE O CONTEÚDO
+Este protótipo é educativo e não é protocolo clínico validado. Antes de divulgação pública ou uso institucional, cada orientação deve ser revisada por profissionais habilitados e atualizada conforme diretrizes vigentes. Em emergência, ligue 192/193 e siga a central. O app não substitui formação prática.
+
+FONTES DE REFERÊNCIA INCLUÍDAS NO APP
+- Ministério da Saúde — SAMU 192: https://www.gov.br/saude/pt-br/composicao/saes/samu-192
+- Ministério da Saúde — Animais peçonhentos: https://miniapps.saude.gov.br/animais-peconhentos/primeiros-socorros-e-prevencao/o-que-fazer
+- Ministério da Saúde — Acidente por serpente: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/animais-peconhentos/acidentes-ofidicos/faq/o-que-devo-fazer-no
+- Ministério da Saúde — Insolação: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/insolacao
+- Sociedade Brasileira de Cardiologia — Diretriz de RCP: https://www.scielo.br/j/abc/a/7hYYNQk4XHwckmPbFcFD7kP/

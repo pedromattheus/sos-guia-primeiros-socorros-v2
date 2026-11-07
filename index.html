@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#103b59">
+<meta name="description" content="Guia ilustrado e rápido de primeiros socorros.">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>SOS | Guia de Primeiros Socorros</title>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand"><span class="brand-icon">✚</span><div><strong>SOS</strong><small>GUIA DE PRIMEIROS SOCORROS</small></div></div>
+    <p class="tagline">Informação rápida. Vida protegida.</p>
+    <label class="search"><span>⌕</span><input id="search" type="search" placeholder="O que aconteceu?" autocomplete="off" aria-label="Buscar situação"></label>
+  </div>
+</header>
+<main>
+  <section class="emergency-bar">
+    <div><strong>Emergência?</strong><small>Em situação grave, ligue para o serviço adequado.</small></div>
+    <a href="tel:192" class="call-button">☎ 192 · SAMU</a>
+  </section>
+  <section class="safety-note"><span>ⓘ</span><p><b>Primeiro, proteja-se.</b> Verifique se o local é seguro. Não se torne outra vítima. Siga as orientações do atendente de emergência.</p></section>
+  <div class="section-heading"><div><h1 id="section-title">Encontre uma orientação</h1><p>Toque em uma situação para ver os cuidados iniciais.</p></div><span class="count" id="count"></span></div>
+  <nav class="filters" aria-label="Filtrar situações">
+    <button class="filter active" data-filter="Todas">Todas</button>
+    <button class="filter" data-filter="Mais comuns">Mais comuns</button>
+    <button class="filter" data-filter="Acidentes">Acidentes</button>
+    <button class="filter" data-filter="Saúde">Saúde</button>
+  </nav>
+  <div id="cards" class="cards"></div>
+  <article id="detail" class="detail hidden" aria-live="polite"></article>
+  <section class="quick-numbers">
+    <h2>Telefones úteis</h2>
+    <a href="tel:192"><span class="number-icon red">☎</span><span><b>192 · SAMU</b><small>Urgências e emergências médicas</small></span></a>
+    <a href="tel:193"><span class="number-icon blue">✚</span><span><b>193 · Bombeiros</b><small>Resgate, salvamento e incêndios</small></span></a>
+    <a href="tel:08007226001"><span class="number-icon amber">ⓘ</span><span><b>0800 722 6001 · Disque-Intoxicação</b><small>Orientação toxicológica nacional</small></span></a>
+  </section>
+  <section class="about">
+    <h2>Sobre este guia</h2>
+    <p>Material educativo de consulta rápida. Não substitui treinamento prático, avaliação profissional nem orientação do serviço de emergência. As condutas podem variar conforme idade, condição clínica e protocolos locais.</p>
+    <p><b>Conteúdo em revisão:</b> antes de uso institucional ou divulgação pública, as orientações devem ser validadas por profissionais habilitados e atualizadas periodicamente.</p>
+    <details><summary>Fontes de referência</summary>
+      <ul>
+        <li><a href="https://www.gov.br/saude/pt-br/composicao/saes/samu-192" target="_blank" rel="noopener">Ministério da Saúde — SAMU 192</a></li>
+        <li><a href="https://miniapps.saude.gov.br/animais-peconhentos/primeiros-socorros-e-prevencao/o-que-fazer" target="_blank" rel="noopener">Ministério da Saúde — Animais peçonhentos: o que fazer</a></li>
+        <li><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/animais-peconhentos/acidentes-ofidicos/faq/o-que-devo-fazer-no" target="_blank" rel="noopener">Ministério da Saúde — Acidente por serpente</a></li>
+        <li><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/insolacao" target="_blank" rel="noopener">Ministério da Saúde — Insolação</a></li>
+        <li><a href="https://www.scielo.br/j/abc/a/7hYYNQk4XHwckmPbFcFD7kP/" target="_blank" rel="noopener">Sociedade Brasileira de Cardiologia — Diretriz de RCP e emergência</a></li>
+      </ul>
+    </details>
+  </section>
+  <footer> SOS · Guia de Primeiros Socorros <span>Versão 2.0 · Conteúdo educativo</span></footer>
+</main>
+<script src="app.js"></script>
+</body></html>
